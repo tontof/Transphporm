@@ -211,7 +211,7 @@ Which will output:
 ```php
 
 <h1>My Title!</h1>
-<p>Description of the page....</p>
+<p>Description of the page...</p>
 
 ```
 
@@ -222,7 +222,7 @@ The content property can take multiple values, either a function call such as `d
 ```php
 $xml = '<h1>Original Title</h1>';
 
-$data = 'My Title!'
+$data = 'My Title!';
 
 $tss = 'h1 {content: "Title: ", data(); }';
 
@@ -412,7 +412,7 @@ Transphporm supports the following CSS selectors:
 
 And any of these can be chained:
 
-`main .post > .author[data-admin=true]` will match  any element with the class name `author` which has the `data-admin` attribute set to true and is directly inside an element with the class name `post` that is inside the `<main>` element.
+`main .post > .author[data-admin=true]` will match any element with the class name `author` which has the `data-admin` attribute set to true and is directly inside an element with the class name `post` that is inside the `<main>` element.
 
 For a full list of supported selectors and example of each one, see the [Wiki page on Basic Usage: CSS Selectors](https://github.com/Level-2/Transphporm/wiki/Basic-Usage:-CSS-Selectors).
 
